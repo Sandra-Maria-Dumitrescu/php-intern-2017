@@ -40,8 +40,8 @@ q:after{content:' „'; font-size:26px; line-height:0;}
 div.wrapper{display:block; width:960px; margin:0 auto; padding:0; text-align:left;}
 
 .row1, .row1 a{color:#979797; background-color:#FFFFFF;}
-.row2{color:#979797; background-color:#FFFFFF;}
-.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row2{color:darkblue; background-color:#FFFFFF;}
+.row2 a{color:#5fcf80; background-color:#FFFFFF;}
 .row3{border-top:1px solid #DEDEDE;}
 .row3, .row3 a{color:#979797; background-color:#FFFFFF;}
 
@@ -79,7 +79,7 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
 #header nav li a{}
-#header nav li a:hover{color:#FF9900; }
+#header nav li a:hover{color:red; }
 
 /*----------------------------------------------Content Area-------------------------------------*/
 
@@ -92,7 +92,7 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 #container #slider{}
 #container #slider a{}
-#container #slider a:hover{border-color:#FF9900;}
+#container #slider a:hover{border-color:red;}
 
 /* ------Homepage-----*/
 

@@ -1,0 +1,16 @@
+Tema 1 este:
+1) [X]	Modificati sloganul paginii, astfel incat, in loc de “Internship Program”, sa apara numele vostru
+
+2) [X]	Modificati meniul paginii. Link-urile sa fie:
+   Home (link catre “/” – adica catre aceasta pagina pe care o editam acum)
+  Products (link catre “/products.html” – pagina pe care o gasiti in radacina site-ului)
+  Add product (link catre “add-product.html” – pagina pe care o gasiti in radacina site-ului)
+  Login (link catre “login.html” – pagina pe care o creati voi)
+
+3) [X]	Analizati codul din products.html si add product.html si modificati header-ul ambelor pagini, astfel incat sa arate ca pe Home (index.html).
+
+4) [x]	Creati un fisier nou “login.html”. Faceti un formular asemanator celui din pagina 'add-products', pe o pagina separata,  dar care sa contina 2 inputuri (unul pentru mail si altul pentru parola) si un buton de login. Formularul trebuie sa fie fix in centrul pagini, iar fundalul din spatale lui sa fie negru.  Pentru asta o sa aveti nevoie sa faceti modificari in fisierul de style. Documentati-va putin despre CSS cu ocazia asta.
+
+5) [x]	Modificati cele 3 imagini de pe home (index.html) – cele pe care scrie 80x80px. Inlocuiti-le cu alte poze patrate, pe care le veti pune singuri in folderul images.
+
+6) [X]	Modificati in CSS culoarea link-urilor, cu una care va place mai mult decat portocaliul nostru.
