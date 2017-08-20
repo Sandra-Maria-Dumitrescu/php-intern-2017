@@ -1,0 +1,14 @@
+1) []	Cititi standardele PSR 1 si 2 de aici: http://www.php-fig.org/psr/
+2) []	Transformati fisierele site-ului din html in php.
+3) []	Creati un folder numit lib
+	3.1) []	Creati un fisier numit header.php si unul numit footer.php
+			#	Includeti aceste fisiere in partea de sus, respectiv in partea de jos a fiecarei pagini - folosind directive php include();
+			#	Ideea principala este de a refolosi codul din header si din footer
+	3.2) []	In pagina products.php, in zona celor 3 tab-uri, afisati produse din baza de date, – in loc de a le lista din html, asa cum sunt acum
+	3.3) []	Creati o pagina care sa preia date din formularul din add_products.php si sa le adauge in baza de date.
+			# Validati formularul cu javascript, astfel incat sa nu permita adaugarea de inregistrari cu titlul vid, etc.
+			# Adaugati un camp de tip file upload, pentru upload-ul imaginilor.
+			# Formularul ar trebui sa permita upload-ul de imagini in format jpg. Imaginile ar trebui sa fie urcate in folderul /assets/images/products/
+			HINT: https://www.w3schools.com/php/php_file_upload.asp  
+			HINT 2: atentie la atributul enctype="multipart/form-data" care trebuie adaugat pe formular
+	3.4) []	Modificati meniul astfel incat sa apeleze noile pagini php (in loc de cele html).

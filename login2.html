@@ -10,6 +10,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script src="scripts/jquery.bxslider.js"></script>
+	
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
 </head>
@@ -38,7 +39,7 @@
 
 			<div class="container">
 
-				<form action="index.html" method="post">
+				<form action="#" method="get" id="formId">
 
 					<h1>Login2</h1>
 
@@ -47,11 +48,10 @@
 						<input type="text" id="email" name="email">
 
 						<label for="parola">Parola:</label>
-						<textarea id="parola" name="parola"></textarea>
+						<input type="password" id="parola" name="parola">
 					</fieldset>
-
-
 					<button type="submit">Login</button>
+
 				</form>
 			</div><!-- container -->
 
@@ -92,5 +92,7 @@
 				});
 			});
 		</script>
+		<script src="scripts/sandraValidare.js"></script>
+		<script src="scripts/sandraValidare2.js"></script>
 	</body>
 	</html>

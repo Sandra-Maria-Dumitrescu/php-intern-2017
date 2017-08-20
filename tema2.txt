@@ -1,4 +1,4 @@
-1) []	Creati un script jQuery, cu care sa  validati datele introduse in formularul de login (din fisierul login.html) astfel incat, la apasarea butonului Login, sa sara un alert daca informatiile completate nu sunt corecte:
+1) [x]	Creati un script jQuery, cu care sa  validati datele introduse in formularul de login (din fisierul login.html) astfel incat, la apasarea butonului Login, sa sara un alert daca informatiile completate nu sunt corecte:
 Campul de username trebuie sa fie de forma unui email  (nume.prenume@domeniu.ceva)
 Campul de parola trebuie sa contina:
     #	Litere mici
@@ -6,12 +6,13 @@ Campul de parola trebuie sa contina:
     #	Cel putin o litera mare
 Alte caractere in afara celor mentionate nu sunt premise
 
-2) []	Creati o baza de date MySQL, pe calculatorul vostru, care sa se numeasca “eshop”. Puteti folosi tool-ul phpmyadmin, disponibil la adresa http://localhost/phpmyadmin/
+2) [x]	Creati o baza de date MySQL, pe calculatorul vostru, care sa se numeasca “eshop”. Puteti folosi tool-ul phpmyadmin, disponibil la adresa http://localhost/phpmyadmin/
 
-3) []	Creati o tabela noua, numita “Products”. Aceasta tabela sa aiba urmatoarea structura:
+3) [x]	Creati o tabela noua, numita “Products”. Aceasta tabela sa aiba urmatoarea structura:
 	#	id – numar intreg pozitiv
 	#	name – sir de caractere de maxim 50 de caractere
-	#	details – text price – numar real pozitiv
+	#	details – text 
+	#	price – numar real pozitiv
 
-4) []	Adaugati cateva inregistrari in noua tabela
-5) []	Exportati baza de date, cu tot cu inregistrari, intr-un fisier numit products.sql, pe care sa-l puneti in radacina site-ului
+4) [x]	Adaugati cateva inregistrari in noua tabela
+5) [x]	Exportati baza de date, cu tot cu inregistrari, intr-un fisier numit products.sql, pe care sa-l puneti in radacina site-ului

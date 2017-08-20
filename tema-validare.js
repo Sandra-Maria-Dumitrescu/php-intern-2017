@@ -10,6 +10,7 @@ $(document).ready(function(){
 		
 		event.preventDefault();
 	});
+
 	// validation logic
 	function isValid(email, password) {
 		
